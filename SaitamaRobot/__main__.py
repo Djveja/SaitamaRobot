@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SaitamaRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from sukunarobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater)
 # needed to dynamically load modules
@@ -51,15 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {😈}, my name is {Sukuna}! 
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+Hey there! My name is *{Sukuna}*.
+I'm a cursed spirit and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -77,10 +77,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SUKUNA_IMG = https://telegra.ph/file/15a176db8651d41c7696f.jpg
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+Sukuna is hosted on one of 's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
